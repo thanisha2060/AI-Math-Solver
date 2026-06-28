@@ -99,8 +99,9 @@ npm run dev
 1. Start both the backend and frontend.
 2. Open the frontend in your browser.
 3. Draw a mathematical expression, geometric figure, or object.
-4. Click **Analyze**.
-5. View the AI-generated solution or description.
+4. Click solve
+5. .
+6. View the AI-generated solution or description.
 
 ---
 
