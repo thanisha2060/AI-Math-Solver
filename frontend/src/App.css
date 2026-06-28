@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #eef2ff;
+}
+
+.app {
+  min-height: 100vh;
+}
+
+/* Navbar */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background: #1d3557;
+  color: white;
+}
+
+.login-btn {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.login-btn:hover {
+  background: #1d4ed8;
+}
+
+/* Hero */
+
+.hero {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.hero h1 {
+  font-size: 45px;
+  color: #1d3557;
+}
+
+.hero p {
+  margin-top: 15px;
+  color: #555;
+  font-size: 18px;
+}
+
+/* Layout */
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 30px;
+  flex-wrap: wrap;
+}
+
+.left-panel,
+.right-panel {
+  background: white;
+  border-radius: 15px;
+  padding: 25px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, .08);
+}
+
+.left-panel {
+  width: 65%;
+}
+
+.right-panel {
+  width: 28%;
+}
+
+.left-panel h2,
+.right-panel h2 {
+  margin-bottom: 20px;
+  color: #1d3557;
+}
+
+.solution-card {
+  height: 500px;
+  border: 2px dashed #d1d5db;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: gray;
+  padding: 20px;
+  text-align: center;
+}

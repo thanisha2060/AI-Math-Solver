@@ -1,0 +1,206 @@
+.drawing-container {
+
+    width: 100%;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+
+}
+
+/* ===========================
+   TOOLBAR
+=========================== */
+
+.toolbar {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    gap: 20px;
+
+    margin-bottom: 20px;
+
+    padding: 15px 20px;
+
+    background: #f8fafc;
+
+    border-radius: 12px;
+
+    border: 1px solid #e5e7eb;
+
+}
+
+.tool-item {
+
+    display: flex;
+    align-items: center;
+
+    gap: 10px;
+
+}
+
+.tool-item label {
+
+    font-size: 16px;
+    font-weight: 600;
+
+    color: #1f2937;
+
+}
+
+.tool-item input[type="color"] {
+
+    width: 45px;
+    height: 45px;
+
+    border: none;
+    border-radius: 8px;
+
+    cursor: pointer;
+
+    background: white;
+
+}
+
+.tool-item input[type="range"] {
+
+    width: 170px;
+
+    cursor: pointer;
+
+}
+
+.tool-item span {
+
+    font-weight: 600;
+
+    color: #2563eb;
+
+    min-width: 40px;
+
+}
+
+/* ===========================
+   CANVAS
+=========================== */
+
+.drawing-canvas {
+
+    width: 100%;
+
+    border: 3px solid #2563eb;
+
+    border-radius: 15px;
+
+    background: white;
+
+    cursor: crosshair;
+
+}
+
+/* ===========================
+   BUTTONS
+=========================== */
+
+.button-group {
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 20px;
+
+    margin-top: 25px;
+
+}
+
+.clear-btn {
+
+    padding: 14px 35px;
+
+    background: #ef4444;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 10px;
+
+    cursor: pointer;
+
+    font-size: 16px;
+
+    font-weight: 600;
+
+    transition: .3s;
+
+}
+
+.clear-btn:hover {
+
+    background: #dc2626;
+
+    transform: translateY(-2px);
+
+}
+
+.solve-btn {
+
+    padding: 14px 40px;
+
+    background: #2563eb;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 10px;
+
+    cursor: pointer;
+
+    font-size: 16px;
+
+    font-weight: 600;
+
+    transition: .3s;
+
+}
+
+.solve-btn:hover {
+
+    background: #1d4ed8;
+
+    transform: translateY(-2px);
+
+}
+
+/* ===========================
+   RESPONSIVE
+=========================== */
+
+@media(max-width:768px) {
+
+    .toolbar {
+
+        flex-direction: column;
+        align-items: flex-start;
+
+    }
+
+    .button-group {
+
+        flex-direction: column;
+
+    }
+
+    .clear-btn,
+    .solve-btn {
+
+        width: 100%;
+
+    }
+
+}
